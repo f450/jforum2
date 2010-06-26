@@ -1,4 +1,4 @@
-#summary NewFeatures2.2.0
+#summary New and changed features in JForum 2.2.0
 #labels NewFeatures
 
 = New and changed features in JForum 2.2.0 =
@@ -6,7 +6,7 @@
 JForum is in constant development and improvement, and we always try to ship the best code possible.
 
 
-= Libraries =
+== Libraries ==
 ----
 Some libraries have changed from JForum 2.1.8 to version 2.2.0, and they are necessary to have the software running smoothly. Please make sure that no duplicated version of such exist in the WEB-INF/lib directory, as it would cause some strange runtime behavior.
 Below are all changed libraries. The left column shows the old version, while the right column, the new version.
@@ -39,10 +39,10 @@ Below are all changed libraries. The left column shows the old version, while th
 ||JGroups||2.2.9-beta2||2.9.0||
 ||c3p0||0.9.1-pre9||0.9.1.2||
 ||HSQLDB||1.8.0.1||.18.1.2||
-||Mysql Connector/J JDBC driver||5.0.3||5.0.8||
+||MySQL Connector/J JDBC driver||5.0.3||5.0.8||
 ||PostgreSQL JDBC driver||8.0-313.jdbc3||8.4-701.jdbc3||
-||Oracle JDBC driver classes for use with JDK14||9.0.2.0.0||10.2.0.4.0||
-||Microsoft SQL Server 2005 JDBC Driver||Don't have||1.2||
+||Oracle JDBC driver||9.0.2.0.0||11.2.0.1.0||
+||Microsoft SQL Server JDBC Driver||Don't have||2.0||
 ||commons-httpclient||3.0-rc3||Deleted||
 ||concurrent||Unknown||Deleted||
 ||jaxen||1.1-beta-6||Deleted||
@@ -54,3 +54,9 @@ Below are all changed libraries. The left column shows the old version, while th
 ||xom||1.0||Deleted||
 ||jQuery||1.2.1||1.4.2||
 ||SyntaxHighlighter||1.5.1||2.1.364||
+
+== New Configurations ==
+----
+||Entry name||Default vale||Description||
+||lucene.analyzer.chinese||org.apache.lucene.analysis.cjk.CJKAnalyzer||Chinese Token Analyzer||
+||cache.engine.ehcache||net.jforum.cache.EhCacheEngine||Ehcache Engine implementation||
