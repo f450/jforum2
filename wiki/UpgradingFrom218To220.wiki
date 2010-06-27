@@ -9,7 +9,7 @@ The suggested approach is to unpack JForum 2.2.0 into some temporary directory, 
 
 ==What's new==
 ----
-For a list of changes made in JForum 2.2.0, please check New and Changed Features in JForum 2.2.0.
+For a list of changes made in JForum 2.2.0, please check [NewFeatures220 New and Changed Features in JForum 2.2.0].
 ==Backup your data==
 ----
 First, make a backup of the database and the current directory where JForum is installed. JForum's directories are: _templates_, _images_, _upload_ and _WEB-INF/config_. Each database has a different backup [http://www.aquafold.com/ tool], so please check its documentation or with your system administrator. For HSQLDB backup, the database files are in the directory _WEB-INF/config/database/hsqldb_, and all you have to do is to copy it.
