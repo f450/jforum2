@@ -23,7 +23,7 @@
 ||MySQL Connector/J JDBC driver||5.0.8||2007/10/04||MySQL Connector/J is a JDBC Type 4 driver. ||GPL or a commercial license||JDK 1.2 or above||http://www.mysql.com/products/connector/||
 ||PostgreSQL JDBC driver||8.4-701.jdbc3||2009/07/01||PostgreSQL JDBC driver||BSD License||JDK 1.4||http://jdbc.postgresql.org/||
 ||Oracle JDBC driver||10.2.0.4.0||2008/02/02||Oracle Database 10g  Release 2 (10.2.0.4) JDBC Drivers||OTN License||JDK 1.4||http://www.oracle.com/technology/tech/java/sqlj_jdbc/index.html||
-||Microsoft SQL Server JDBC Driver||2.0||2009/04/03||Microsoft SQL Server JDBC Driver||Microsoft EULA||JDK 1.4||http://www.microsoft.com/downloads/details.aspx?familyid=99B21B65-E98F-4A61-B811-19912601FDC9&displaylang=zh-tw||
+||Microsoft SQL Server JDBC Driver||2.0||2009/04/03||Microsoft SQL Server JDBC Driver||Microsoft EULA||JDK 5.0 or later||http://www.microsoft.com/downloads/details.aspx?familyid=99B21B65-E98F-4A61-B811-19912601FDC9&displaylang=zh-tw||
 ||jQuery||1.4.2||2010/02/13||jQuery is a fast and concise JavaScript Library that simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development. jQuery is designed to change the way that you write JavaScript.||the MIT license or GPL v2 licenses.||JavaScript enabled||http://jquery.com/||
 ||Jeditable - jQuery in place edit plugin||1.4.x(with customization for JForum)||2007/09/02||Edit In Place Plugin For jQuery||the MIT license||JavaScript enabled||http://www.appelsiini.net/projects/jeditable||
 ||SyntaxHighlighter||2.1.364||2009/10/15||SyntaxHighlighter is a fully functional self-contained code syntax highlighter developed in JavaScript.||LGPL v3||JavaScript enabled||http://alexgorbatchev.com/wiki/SyntaxHighlighter||
