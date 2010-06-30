@@ -1,5 +1,5 @@
+#summary Manual Installation
 #labels Phase-Deploy,Installation
-# summary Manual Installation.
 
 = Manual Installation =
  	
