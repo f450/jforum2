@@ -21,4 +21,5 @@ Below are all changed libraries. The left column shows the old version, while th
 == New Configurations ==
 ----
 ||Entry name||Default vale||Description||
+||search.result.limit||50000||max number of posts in the search result||
 ||top.downloads||50||number of top downloads to be displayed||
