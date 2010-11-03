@@ -1,0 +1,15 @@
+2.2.1
+
+<p>Some features have been added, changed or fixed in JForum 2.2.1, like:</p>
+
+<ul>
+<li>Fix lucene search limit to 10 results problem</li>
+<li>Add Top Downloads</li>
+<li>Add browser language auto-detection</li>
+<li>Add ${topic.firstPostTime} in forum_show.htm, recent_thread.htm and hottest_thread.htm</li>
+<li>Third party JavaScript libraries are now put under the /javascript directory</li>
+</ul>
+
+<p>
+<span color="red"><b>Upgrading is HIGHLY recommended</span>
+</p> 
