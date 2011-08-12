@@ -1,0 +1,13 @@
+2.3.1
+
+<p>Some features have been added, changed or fixed in JForum 2.3.1, like:</p>
+
+<ul>
+<li>Fix post cache problem</li>
+<li>Update to Apache Lucene 3.3.0</li>
+<li>Update to jQuery 1.6.2</li> 
+</ul>
+
+<p>
+<span color="red"><b>Upgrading is HIGHLY recommended</span>
+</p> 
