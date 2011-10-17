@@ -12,7 +12,7 @@ For a list of changes made in JForum 2.3.2, please check [NewFeatures232 New and
 ==Backup your data==
 ----
 First, make a backup of the database and the current directory where JForum is installed. JForum's directories are: _templates_, _images_, _upload_ and _WEB-INF/config_. Each database has a different backup [http://www.aquafold.com/ tool], so please check its documentation or with your system administrator. For HSQLDB backup, the database files are in the directory _WEB-INF/config/database/hsqldb_, and all you have to do is to copy it.
-==Configuration files==
+==Backup configuration files==
 ----
 You'd like to take special care for _SystemGlobals.properties_ and _jforum-custom.conf_, as these are the main configuration files. Backup them and then compare and merge your current version with the new version that comes with JForum 2.3.2. The same is valid for database-specific configurations, that are stored in the directory _WEB-INF/config/database_.
 ==Upgrading the database schema==
