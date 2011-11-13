@@ -39,7 +39,7 @@ Open the file _WEB-INF/config/SystemGlobals.properties_. Now search for a key na
 ||PostgreSQL|| 	postgresql||
 ||HSQLDB|| 	hsqldb||
 ||Oracle|| 	oracle||
-||SQL Server|| 	mssql||
+||SQL Server|| 	sqlserver||
 
 The default value is mysql, which means JForum will try to use MySQL. Note that the value should be in lowercase. 
 
