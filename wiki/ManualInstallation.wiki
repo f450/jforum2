@@ -7,7 +7,7 @@ Here will be shown how to manually configure and install JForum. It is assumed t
 
 For automated installation, check the Installation & configuration - Wizard section.
 
-Note: These instructions are for the installation of JForum, release version 2.2.0. Some of the steps here described may not be valid for older versions, which are no longer supported. 
+Note: These instructions are for the installation of JForum, release version 2.3.x. Some of the steps here described may not be valid for older versions, which are no longer supported. 
 
 == Downloading JForum ==
 ----
@@ -15,7 +15,7 @@ To get JForum, go to the [http://code.google.com/p/jforum2/downloads/list downlo
 
 == Unpacking ==
 ----
-After the download, unpack the .war file into your webapp's directory (or any place you want to put it). A directory named _jforum-`<`release`>`_ will be created, where `<`release`>` is the version, which may be "2.1.8", "2.2.0" etc... this it just for easy version identification.
+After the download, unpack the .war file into your webapp's directory (or any place you want to put it). A directory named _jforum-`<`release`>`_ will be created, where `<`release`>` is the version, which may be "2.3.0", "2.3.1" etc... this it just for easy version identification.
 
 You can rename the directory if you want. The next step you should do is register the JForum application within your Servlet Container, like [http://tomcat.apache.org Tomcat]. This document will use the context name "jforum", but of course you can use any name you want.
 
@@ -73,6 +73,9 @@ Now it is time to run the script to populate the database tables. To do that, us
 == General configuration ==
 ----
 The main configuration file for JForum is _WEB-INF/config/SystemGlobals.properties_. The file is well documented, and you certainly will want to change some of the settings there, like forum's URL, name, description, location of some directories and etc.
+
+You need to create a customed configuration file named _jforum-custom.conf_ under WEB-INF/config/ directory. Add the following key and value into it:
+installed=true
 
 == Security Information and Considerations ==
 ----
