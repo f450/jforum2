@@ -1,0 +1,24 @@
+#System Requirements for JForum 2.3.4
+
+= System Requirements =
+
+ * Java 5.0(aka 1.5) or above
+ * JEE Application Server or Web/Servlet Container which supports JEE5 Servlet 2.5 standard.
+
+
+= Tested Environments =
+
+JForum 2.3.4 has been tested under the following environments
+
+Java:
+  * JDK 6.0 Update 32
+  * JDK 7.0 Update 4
+
+AP Server:
+  * Apache Tomcat 7.0.27
+
+Databases:
+  * MySQL Community Server 5.5.25
+  * PostgreSQL 9.1.4
+  * Oracle Database Express Edition 11g Release 2
+  * Microsoft® SQL Server® 2012 Express
