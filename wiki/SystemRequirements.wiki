@@ -1,4 +1,4 @@
-#System Requirements for JForum 2.3.4
+#summary System Requirements for JForum 2.3.4
 
 = System Requirements =
 
