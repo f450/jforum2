@@ -23,7 +23,7 @@ JForum is in constant development and improvement, and we always try to ship the
 ----
 ||Entry name||Default value||Description||
 ||google.analytics.tracker||blank||Filling in a Google Analytics ID will cause a GA tracking snippet to be inserted in each forum page||
-||posts.edit.after.reply||true||If set to false, disallows editing a post (or a response) after there have been later replies||
+||posts.edit.after.reply||true||If set to false, disallows editing a post (or a reply) after there have been later replies||
 
 == Database Schema ==
 ----
