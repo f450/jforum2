@@ -13,7 +13,7 @@ JForum is in constant development and improvement, and we always try to ship the
 ----
   * RSS feed for a particular user's posts
   * New search options: exact pharse, subject/message differentiation, search by date, group by forum
-  * New BB tags [tt], [strike] and [wikipedia]
+  * New BB tags "tt", "strike" and "wikipedia"
   * Enhancements to the "My Bookmarks" page: listing forum and topic watches
   * Added link to a user's public profile page on his/her profile edit page
   * Fixed an XSS vulnerability
