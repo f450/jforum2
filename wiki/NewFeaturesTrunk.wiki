@@ -1,0 +1,30 @@
+#summary New and changed features that have not yet been released
+
+= New and changed features that have not yet been released =
+----
+JForum is in constant development and improvement, and we always try to ship the best code possible.
+
+
+== Libraries ==
+----
+
+
+== New Features ==
+----
+  * RSS feed for a particular user's posts
+  * New search options
+  * New BB tags
+  * Enhancements to the "My Bookmarks" page
+  * Added link to a user's public profile page to the profile edit page
+  * Fixed an XSS vulnerability
+
+
+== New Configurations ==
+----
+||Entry name||Default vale||Description||
+||google.analytics.tracker||blank||Filling in a Google Analytics ID will cause a GA tracking snippet to be inserted in each forum page||
+||posts.edit.after.reply||true||If set to false, disallows editing a post (or a response) after there have been later replies||
+
+== Database Schema ==
+----
+None
