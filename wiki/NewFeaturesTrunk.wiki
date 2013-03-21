@@ -17,6 +17,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Enhancements to the "My Bookmarks" page: listing forum and topic watches
   * Added link to a user's public profile page on his/her profile edit page
   * Fixed an XSS vulnerability
+  * Built-in access statistics for board administrators
 
 
 == New Configurations ==
@@ -24,6 +25,11 @@ JForum is in constant development and improvement, and we always try to ship the
 ||Entry name||Default value||Description||
 ||google.analytics.tracker||blank||Filling in a Google Analytics ID will cause a GA tracking snippet to be inserted in each forum page||
 ||posts.edit.after.reply||true||If set to false, disallows editing a post (or a reply) after there have been later replies||
+||show.online.status || true || Whether or not to show the online status of users ||
+||show.ip || true || Whether or not to show the IP address for a post ||
+||show.avatar || true || Whether or not to show avatars ||
+||karma.show | true || Whether or not to show karma ||
+
 
 == Database Schema ==
 ----
