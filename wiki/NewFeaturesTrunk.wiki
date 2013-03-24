@@ -36,8 +36,4 @@ JForum is in constant development and improvement, and we always try to ship the
 == Database Schema ==
 ----
   * ALTER TABLE jforum_users ADD COLUMN user_twitter VARCHAR(50) DEFAULT NULL;
-  * CREATE TABLE jforum_announcement (
-  sequence_number integer NOT NULL,
-  text character varying(255) NOT NULL,
-  CONSTRAINT jforum_announcement_pkey PRIMARY KEY (sequence_number)
-);
+  * CREATE TABLE jforum_announcement (sequence_number integer NOT NULL, text character varying(255) NOT NULL, CONSTRAINT jforum_announcement_pkey PRIMARY KEY (sequence_number));
