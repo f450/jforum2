@@ -12,7 +12,7 @@ JForum is in constant development and improvement, and we always try to ship the
 == New Features ==
 ----
   * RSS feed for a particular user's posts
-  * New search options: exact phrase, subject/message differentiation, search by date, search bs username/user ID, group by forum
+  * New search options: exact phrase, subject/message differentiation, search by date, search by username/user ID, group by forum
   * New BB tags "tt", "strike" and "wikipedia" (even language-specific)
   * Enhancements to the "My Bookmarks" page: listing forum and topic watches
   * Added link to a user's public profile page on his/her profile edit page
