@@ -12,7 +12,7 @@ JForum is in constant development and improvement, and we always try to ship the
 == New Features ==
 ----
   * RSS feed for a particular user's posts
-  * New search options: exact phrase, subject/message differentiation, search by date, group by forum
+  * New search options: exact phrase, subject/message differentiation, search by date, search bs username/user ID, group by forum
   * New BB tags "tt", "strike" and "wikipedia"
   * Enhancements to the "My Bookmarks" page: listing forum and topic watches
   * Added link to a user's public profile page on his/her profile edit page
@@ -20,6 +20,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Built-in access statistics for board administrators
   * Use porter stemming for indexing content - makes it easier to find singular/plural forms of words
   * User profiles support Twitter handles
+  * Option to display a board-wide announcement at the top of each page
 
 == New Configurations ==
 ----
@@ -35,3 +36,8 @@ JForum is in constant development and improvement, and we always try to ship the
 == Database Schema ==
 ----
   * ALTER TABLE jforum_users ADD COLUMN user_twitter VARCHAR(50) DEFAULT NULL;
+  * CREATE TABLE jforum_announcement (
+  sequence_number integer NOT NULL,
+  text character varying(255) NOT NULL,
+  CONSTRAINT jforum_announcement_pkey PRIMARY KEY (sequence_number)
+);
