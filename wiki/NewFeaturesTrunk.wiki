@@ -16,7 +16,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * New BB tags "tt", "strike" and "wikipedia" (even language-specific)
   * Enhancements to the "My Bookmarks" page: listing forum and topic watches
   * Added link to a user's public profile page on his/her profile edit page
-  * Fixed an XSS vulnerability
+  * Fixed a couple of XSS vulnerabilities
   * Built-in access statistics for board administrators
   * Use porter stemming for indexing content - makes it easier to find singular/plural forms of words
   * User profiles support Twitter handles
