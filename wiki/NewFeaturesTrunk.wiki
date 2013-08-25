@@ -21,6 +21,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Use porter stemming for indexing content - makes it easier to find singular/plural forms of words
   * User profiles support Twitter handles
   * Option to display a board-wide announcement at the top of each page
+  * Option to index and search post attachments
 
 == New Configurations ==
 ----
@@ -31,7 +32,7 @@ JForum is in constant development and improvement, and we always try to ship the
 ||show.ip || true || Whether or not to show the IP address for a post ||
 ||show.avatar || true || Whether or not to show avatars ||
 ||karma.show || true || Whether or not to show karma ||
-
+||lucene.index.attachments || false || Whether post attachments should be searched along with the post text. This feature might use a lot of memory. ||
 
 == Database Schema ==
 ----
