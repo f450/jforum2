@@ -22,6 +22,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * User profiles support Twitter handles
   * Option to display a board-wide announcement at the top of each page
   * Option to index and search post attachments
+  * Runs on OpenJDK if you use this [http://code.google.com/p/jforum2/downloads/list patched JCaptcha library]
 
 == New Configurations ==
 ----
