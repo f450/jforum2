@@ -24,6 +24,8 @@ JForum is in constant development and improvement, and we always try to ship the
   * Option to index and search post attachments
   * Runs on OpenJDK if you use this [http://code.google.com/p/jforum2/downloads/list patched JCaptcha library]
   * The header contains a link "My Posts" to all posts made by the current user
+  * It's possible to share a post on multiple sites via ShareThis integration
+  * Improvement to the user post page - the post text can be revealed only upon a button click (makes the page easier to work with if multiple lengthy posts are found)
 
 == New Configurations ==
 ----
@@ -35,6 +37,8 @@ JForum is in constant development and improvement, and we always try to ship the
 ||show.avatar || true || Whether or not to show avatars ||
 ||karma.show || true || Whether or not to show karma ||
 ||lucene.index.attachments || false || Whether post attachments should be searched along with the post text. This feature might use a lot of memory. ||
+||social.enabled || false || Whether to show the ShareThis button on the topic page. ||
+||user.posts.toggle || false || Whether the post contents on the user post page are always visible, or whether they're initially invisible, and displayed only after a mouse click. ||
 
 == Database Schema ==
 ----
