@@ -40,7 +40,7 @@ JForum is in constant development and improvement, and we always try to ship the
 ||lucene.index.attachments || false || Whether post attachments should be searched along with the post text. This feature might use a lot of memory. ||
 ||social.enabled || false || Whether to show the ShareThis button on the topic page. ||
 ||user.posts.toggle || false || Whether the post contents on the user post page are always visible, or whether they're initially invisible, and displayed only after a mouse click. ||
-|| http.x-frame-options || SAMEORIGIN || prevents framing of the web app by some other site to guard against [clickjacking; use DENY to prevent all framing, or leave blank to allow all framing ||
+|| http.x-frame-options || SAMEORIGIN || prevents framing of the web app by some other site to guard against clickjacking; use DENY to prevent all framing; leave blank to allow all framing ||
 
 == Database Schema ==
 ----
