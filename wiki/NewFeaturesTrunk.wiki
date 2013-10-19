@@ -45,3 +45,8 @@ JForum is in constant development and improvement, and we always try to ship the
 == Database Schema ==
 ----
   * ALTER TABLE jforum_users ADD COLUMN user_twitter VARCHAR(50) DEFAULT NULL;
+
+  * For PostgreSQL only: fixed a bug for posts made during the hour when daylight savings time (DST) is switched back by an hour
+  * ALTER TABLE jforum_posts ALTER COLUMN post_time TYPE timestamp with time zone;
+  * ALTER TABLE jforum_posts ALTER COLUMN post_edit_time TYPE timestamp with time zone;
+  * ALTER TABLE jforum_topics ALTER COLUMN topic_time TYPE timestamp with time zone;
