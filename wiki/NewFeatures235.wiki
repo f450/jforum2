@@ -5,7 +5,17 @@
 
 == Libraries ==
 ----
+Some libraries have been updated in this release, and they are necessary to have the software running smoothly. Please make sure that no duplicated version of such exist in the WEB-INF/lib directory, as it would cause some strange runtime behavior.
 
+ * Lucene 3.6.2
+ * jQuery 1.9.1
+ * JDOM 2.0.5
+ * JavaMail 1.5.1
+ * FreeMarker 2.3.20
+ * EhCache 2.4.8
+ * MySQL driver 5.1.27
+ * Quartz 2.1.7
+ * slf4j 1.7.5
 
 == New Features ==
 ----
