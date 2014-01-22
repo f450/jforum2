@@ -16,7 +16,7 @@ JForum is in constant development and improvement, and we always try to ship the
 == New Configurations ==
 ----
 ||*Entry name*||*Default value*||*Description*||
-||announcement||empty||This used to be configured under Admin COntrol panel->Announcement; it's now under Admin Control Panel->Configurations->Public announcement||
+||announcement||empty||This used to be configured under Admin Control Panel->Announcement; it's now under Admin Control Panel->Configurations->Public announcement||
 
 
 == Database Schema ==
