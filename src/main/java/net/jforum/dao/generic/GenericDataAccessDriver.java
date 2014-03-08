@@ -43,6 +43,7 @@
 package net.jforum.dao.generic;
 
 import net.jforum.dao.ApiDAO;
+import net.jforum.dao.AnnouncementDAO;
 import net.jforum.dao.AttachmentDAO;
 import net.jforum.dao.BanlistDAO;
 import net.jforum.dao.BannerDAO;
@@ -101,6 +102,7 @@ public class GenericDataAccessDriver extends DataAccessDriver
     private static BanlistDAO banlistDao = new GenericBanlistDAO();
     private static ModerationLogDAO moderationLogDao = new GenericModerationLogDAO();
     private static LuceneDAO luceneDao = new GenericLuceneDAO();
+    private static AnnouncementDAO announcementDao = new GenericAnnouncementDAO();
     
 	/**
 	 * @see net.jforum.dao.DataAccessDriver#newForumDAO()
@@ -300,5 +302,13 @@ public class GenericDataAccessDriver extends DataAccessDriver
     public LuceneDAO newLuceneDAO()
     {
     	return luceneDao;
+    }
+ 
+    /**
+     * @see net.jforum.dao.DataAccessDriver#newAnnouncementDAO()
+     */
+    public AnnouncementDAO newAnnouncementDAO()
+    {
+    	return announcementDao;
     }
 }
