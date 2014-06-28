@@ -20,9 +20,13 @@ JForum is in constant development and improvement, and we always try to ship the
 ----
   * fix Issue 48 : tr_TR.properties new language add
   * fix Issue 58 : Added Dutch (Nederlandse) translation properties file
-  * fix  Issue 55 : JForum: given folder is not classpath
+  * fix Issue 53 : Editing color or font size do not work
+  * fix Issue 54 : Cannot differ anchor for url and anchor for google
+  * fix Issue 55 : JForum: given folder is not classpath
   * fix locale does not change after selecting a different language from list box on install.page
   * update zh_TW.properties and zh_CN.properties for new I18n keys
+ search
+
 
 == New Configurations ==
 ----
