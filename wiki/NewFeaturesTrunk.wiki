@@ -22,7 +22,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * fix Issue 58 : Added Dutch (Nederlandse) translation properties file
   * fix  Issue 55 : JForum: given folder is not classpath
   * fix locale does not change after selecting a different language from list box on install.page
-  * update zh_TW.properties and zh_CN.properties for new I18 keys
+  * update zh_TW.properties and zh_CN.properties for new I18n keys
 
 == New Configurations ==
 ----
