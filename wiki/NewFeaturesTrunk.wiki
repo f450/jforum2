@@ -25,7 +25,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * fix Issue 55 : JForum: given folder is not classpath
   * fix locale does not change after selecting a different language from list box on install.page
   * update zh_TW.properties and zh_CN.properties for new I18n keys
- search
+  * fix Issue 56 : org.hsqldb.HsqlException: data exception: invalid character value for cast
 
 
 == New Configurations ==
