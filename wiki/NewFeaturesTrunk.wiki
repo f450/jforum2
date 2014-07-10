@@ -30,6 +30,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * change bottom.htm copyright year from 2013 to 2014
   * fix pom.xml resources exclusion, don't package templates directory into jforum.jar
   * fix search_keywords encoding changed in Tomcat 8 for Chinese characters
+  * for forum administrators: ability to maintain a list of spam words and phrases that can not be used in posts
 
 == New Configurations ==
 ----
@@ -39,4 +40,4 @@ JForum is in constant development and improvement, and we always try to ship the
 
 == Database Schema ==
 ----
- 
+   * For the spam blocking feature: `CREATE TABLE jforum_spam (pattern VARCHAR(100) NOT NULL);`
