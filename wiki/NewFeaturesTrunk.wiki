@@ -31,6 +31,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * fix pom.xml resources exclusion, don't package templates directory into jforum.jar
   * fix search_keywords encoding changed in Tomcat 8 for Chinese characters
   * for forum administrators: ability to maintain a list of spam words and phrases that can not be used in posts
+  * support Vimeo embedding analogous to Youtube embedding
 
 == New Configurations ==
 ----
