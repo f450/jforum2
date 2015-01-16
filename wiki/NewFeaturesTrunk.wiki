@@ -11,7 +11,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * update !JavaMail from 1.5.1 to 1.5.2
   * update slf4j from 1.7.5 to 1.7.7
   * update HSQLDB from 2.3.1 to 2.3.2
-  * update MySQL driver from 5.1.27 to 5.1.32
+  * update MySQL driver from 5.1.27 to 5.1.34
   * update PostgreSQL driver from 9.3-1100 to 9.3-1102
   * update Apache Commons !FileUpload from 1.3 to 1.3.1
   * update jQuery from 1.10.2 to 1.11.1
