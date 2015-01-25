@@ -2,7 +2,7 @@
 
 = New and changed features that have not yet been released =
 ----
-JForum is in constant development and improvement, and we always try to ship the best code possible.
+JForum is in constant development and improvement, and we always try to ship the best code possible. The minimum required Java version is now Java 6.
 
 
 == Libraries ==
