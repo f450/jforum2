@@ -22,7 +22,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * upgrade Apache Commons Lang3 from 3.1 to 3.3.2
   * upgrade Apache Codec from 1.6 to 1.10
   * upgrade c3p0 from 0.9.2.1 to 0.9.5
-  * upgrade quartz from 2.1.7 to 2.2.1
+  * upgrade Quartz from 2.1.7 to 2.2.1
   * add CSRFGuard 3.0.0
 
 
@@ -58,3 +58,4 @@ JForum is in constant development and improvement, and we always try to ship the
    * For the spam blocking feature: `CREATE TABLE jforum_spam (pattern VARCHAR(100) NOT NULL);`
    * Change jforum_topics.topic_title to VARCHAR(120)
    * Change jforum_posts_text.post_subject to VARCHAR(130)
+   * Change jforum_users.user_password to VARCHAR(80)
