@@ -58,4 +58,5 @@ JForum is in constant development and improvement, and we always try to ship the
    * For the spam blocking feature: `CREATE TABLE jforum_spam (pattern VARCHAR(100) NOT NULL);`
    * Change jforum_topics.topic_title to VARCHAR(120)
    * Change jforum_posts_text.post_subject to VARCHAR(130)
-   * Change jforum_users.user_password to VARCHAR(80)
+   * Change jforum_users.user_password to VARCHAR(128)
+   * Change jforum_users.user_avatar to VARCHAR(255)
