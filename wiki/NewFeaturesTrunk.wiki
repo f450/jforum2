@@ -12,7 +12,7 @@ JForum is in constant development and improvement, and we always try to ship the
 
 == New Features ==
 ----
-
+  * Better fix for "Arbitrary File Upload and Remote Code Execution – Smileys". 
 
 == New Configurations ==
 ----
