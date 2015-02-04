@@ -10,9 +10,11 @@ JForum is in constant development and improvement, and we always try to ship the
 
 
 
-== New Features ==
+== New Features and fixes ==
 ----
-  * Better fix for "Arbitrary File Upload and Remote Code Execution – Smileys". 
+  * Better fix for "Arbitrary File Upload and Remote Code Execution – Smileys"
+  * Only show number of edits of a post to logged-in users
+  * Don't ignore user's "Hide my online status" setting
 
 == New Configurations ==
 ----
