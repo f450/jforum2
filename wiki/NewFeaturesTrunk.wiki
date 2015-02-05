@@ -16,6 +16,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Only show number of edits of a post to logged-in users
   * Don't ignore user's "Hide my online status" setting
   * Salt the user password with an installation-specific value
+  * Fix problem where smilies could not be inserted into posts
 
 == New Configurations ==
 ----
