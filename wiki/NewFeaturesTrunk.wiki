@@ -17,6 +17,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Don't ignore user's "Hide my online status" setting
   * Salt the user password with an installation-specific value
   * Fix problem where smilies could not be inserted into posts by clicking their icons
+  * Added some missing settings to the Configurations page
 
 == New Configurations ==
 ----
