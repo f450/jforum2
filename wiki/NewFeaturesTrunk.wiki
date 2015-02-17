@@ -18,11 +18,12 @@ JForum is in constant development and improvement, and we always try to ship the
   * Salt the user password with an installation-specific value
   * Fix problem where smilies could not be inserted into posts by clicking their icons
   * Added some missing settings to the Configurations page
+  * Dates can be displayed in the local timezone of the forum visitor instead of the timezone of the forum server
 
 == New Configurations ==
 ----
 ||*Entry name*||*Default value*||*Description*||
-
+||dateTime.local|false||whether to display dates in the visitor timezone or the server timezone||
 
 
 == Database Schema ==
