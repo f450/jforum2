@@ -23,7 +23,7 @@ JForum is in constant development and improvement, and we always try to ship the
 == New Configurations ==
 ----
 ||*Entry name*||*Default value*||*Description*||
-||dateTime.local|false||whether to display dates in the visitor timezone or the server timezone||
+||dateTime.local||false||whether to display dates in the visitor timezone or the server timezone||
 
 
 == Database Schema ==
