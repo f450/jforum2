@@ -7,7 +7,9 @@ JForum is in constant development and improvement, and we always try to ship the
 
 == Libraries ==
 ----
-
+  * upgrade PostgreSQL driver from 9.3-1102-jdbc4 to 9.3-1103-jdbc4
+  * upgrade FreeMarker from 2.3.21 to 2.3.22
+  * upgrade JDOM2 from 2.0.5 to 2.0.6
 
 
 == New Features and fixes ==
