@@ -22,6 +22,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * Added some missing settings to the Configurations page
   * Dates can be displayed in the local timezone of the forum visitor instead of the timezone of the forum server
   * [http://jforum.andowson.com/posts/list/117.page broken "can edit message" setting] has been fixed
+  * Numerous code improvements suggested by FindBugs
 
 == New Configurations ==
 ----
