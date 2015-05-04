@@ -7,7 +7,7 @@ JForum is in constant development and improvement, and we always try to ship the
 
 == Libraries ==
 ----
-  * updated PostgreSQL driver from 9.3-1102-jdbc4 to 9.3-1103-jdbc4
+  * updated PostgreSQL driver from 9.3-1102-jdbc4 to 9.4-1201-jdbc4
   * updated FreeMarker from 2.3.21 to 2.3.22
   * updated JDOM2 from 2.0.5 to 2.0.6
   * updated JavaMail from 1.5.2 to 1.5.3
@@ -15,6 +15,7 @@ JForum is in constant development and improvement, and we always try to ship the
   * updated JBoss Cache from 2.2.19 to 2.2.22
   * updated SLF4J from 1.7.10 to 1.7.12
   * updated MySQL driver from 5.1.34 to 5.1.35
+  * updated Apache Tika from 1.7 to 1.8
 
 
 == New Features and fixes ==
