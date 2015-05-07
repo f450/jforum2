@@ -29,6 +29,8 @@ JForum is in constant development and improvement, and we always try to ship the
   * Dates can be displayed in the local timezone of the forum visitor instead of the timezone of the forum server
   * [http://jforum.andowson.com/posts/list/117.page broken "can edit message" setting] has been fixed
   * Numerous code improvements suggested by FindBugs and PMD
+  * fix Issue 22: Some user attributes not stored in DB
+  * fix Issue 66: Improve Automatic URL matching
 
 == New Configurations ==
 ----
